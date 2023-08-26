@@ -159,7 +159,7 @@ const clickHandle = (e) => {
         decay: 0.94,
         startVelocity: 30,
         shapes: ["star"],
-        colors: ["FFE400", "FFBD00", "E89400", "FFCA6C", "FDFFB8"],
+        colors: ["#f9a8d4", "#db2777", "E89400", "#f9a8d4", "#9d174d"],
       };
 
       function shoot() {
