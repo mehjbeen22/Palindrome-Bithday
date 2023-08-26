@@ -29,6 +29,3 @@ Contributions are welcome! Feel free to fork and create pull requests for improv
 
 - This project was inspired by the idea of exploring unique properties of birthdates through code.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
