@@ -1,36 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Edu+SA+Beginner&family=Hurricane&family=Noto+Sans:wght@300&family=Pacifico&family=Ysabeau+Office:wght@300&display=swap");
+
+* {
+  font-family: "Cormorant", serif;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Hurricane", cursive;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Ysabeau Office", sans-serif;
+}
+
 body {
-  border: 15px solid #f59e0b;
+  border: 15px solid #365314;
   height: 100vh;
   margin: 20px;
-  background-color: #fef9c3;
+  background-color: #d9f99d;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-#main-case{
-    background-color: #fff;
-    border: solid;
-    width: 35%;
-    height: 60vh;
-    margin: 6rem auto;
-    display: flex;
-    flex-direction: column;
-  
-    align-items: center;
+#head {
+  color: #f97316;
+  font-size: 3.4rem;
+  margin: 2rem;
+}
+#main-case {
+  background-color: #ecfccb;
+  border: 10px solid #65a30d;
+  border-radius: 2px;
+  width: 34%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
 }
 
-#heading{
-    height: 6rem;
-    width: 100%;
-    border: solid;
-    display: flex;
-    justify-content:space-around ;
+#heading {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.img{
-    height : 6rem;
-  
+.img {
+  height: 6rem;
+  border: 1px solid #22c55e;
+  border-radius: 4px;
 }
-span{
+h1 {
+  /* border: solid red; */
+  height: 4.5rem;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  font-size: 2.3rem;
+}
+span {
+  color: #f97316;
+}
+
+#bdy-input {
+  width: 80%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border: 1px solid #65a30d;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#show-btn {
+  margin-top: 15px;
+  width: 35%;
+  padding: 15px;
+  background-color: #84cc16;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+}
+
+#show-btn:hover {
+  background-color: #f7fee7;
+  color: #84cc16;
+  border: 2px solid #84cc16;
+}
+
+#output-case {
+  border: 2px solid #16a34a;
+  width: 100%;
+  height: 8rem;
+  margin-top: 8px;
+}
+
+#output-case{
     text-align: center;
 }
