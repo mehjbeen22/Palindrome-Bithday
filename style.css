@@ -3,4 +3,34 @@ body {
   height: 100vh;
   margin: 20px;
   background-color: #fef9c3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-case{
+    background-color: #fff;
+    border: solid;
+    width: 35%;
+    height: 60vh;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+}
+
+#heading{
+    height: 6rem;
+    width: 100%;
+    border: solid;
+    display: flex;
+    justify-content:space-around ;
+}
+.img{
+    height : 6rem;
+  
+}
+span{
+    text-align: center;
 }
